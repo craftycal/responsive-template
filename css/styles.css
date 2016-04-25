@@ -1,2 +1,53 @@
+body {
+	font-family: sans-serif;
+}
+
+nav {
+	background-color: #A0546D;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: none;
+	text-align: right;
+}
+
+#hamburger {
+	float: right;
+}
+
+@media all and (min-width: 480px) {
+	nav ul {
+		display: block;
+	}
+
+	#hamburger {
+		display: none;
+	}
+
+	nav img:not(#hamburger) {
+		float: left;
+	}	
+
+	nav ul li {
+		display: inline-block;
+		line-height: 50px;
+		margin-right: 10px;
+	}
+
+	nav li a{
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+
+
+
+
+
+
+
+}
 
 
