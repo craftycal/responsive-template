@@ -25,6 +25,7 @@ img {
 
 #featured {
 	margin: 0 auto;
+	background-color: #eeeeee;
 }
 
 #featured img {
@@ -37,18 +38,10 @@ main {
 	margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.latest img {
+	margin: 0 auto;
+	display: block;
+}
 
 
 
@@ -79,6 +72,32 @@ main {
 
 }
 
+@media all and (min-width: 600px) {
+	
+	.latest img {
+		float: left;
+		margin-right: 10px;		
+	}
+
+	.latest {
+		margin-bottom: 10px;
+		background-color: #eeeeee;
+	}
+	.latest:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}	
+
+
+
+
+
+
+
+
+
 
 
 @media all and (min-width: 700px) {
@@ -93,9 +112,7 @@ main {
 		float: right;
 	}
 
-	#featured  {
-		background-color: #eeeeee;
-	}
+
 
 
 	#featured:after {
@@ -104,15 +121,6 @@ main {
 		clear: both;
 
 	}
-
-
-
-
-
-
-
-
-
 
 }	
 
