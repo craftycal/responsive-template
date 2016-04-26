@@ -113,11 +113,22 @@ main {
 		clear: both;
 
 	}
-
 }	
 
+@media all and (min-width: 900px) {
+	.latest img {
+		float: none;
+		margin: 0;
+	}
 
-
+	.latest {
+		background-color: #eeeeee;
+		width: 33.33%;
+		float: left;
+		box-sizing: border-box;
+		padding: 15px;
+	}
+}	
 
 
 
